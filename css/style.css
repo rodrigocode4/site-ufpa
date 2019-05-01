@@ -477,10 +477,12 @@ figure {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex; }
+  display: flex; 
+  background-color: #44C662;
+}
 #fh5co-search-map .search-property {
-  width: 33.5%;
-  float: right;
+  width: 70%;
+  
   background: #44C662; }
 @media screen and (max-width: 768px) {
   #fh5co-search-map .search-property {
@@ -1383,5 +1385,8 @@ div.cs-select span {
   height: 100%;
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222; }
+.lista:focus {
+  outline: 5px solid #000;
+}
 
 /*# sourceMappingURL=style.css.map */
