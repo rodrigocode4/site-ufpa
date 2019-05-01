@@ -1147,11 +1147,11 @@ div.cs-select span {
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
   background: #44C662;
-  color: #fff !important; }
+   }
 .btn:hover, .btn:active, .btn:focus {
-  background: #393e46 !important;
-  color: #fff;
-  outline: none !important; }
+  background:  #fff !important;
+  color: #393e46;
+  outline: 3px solid #393e46; }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
   border-color: transparent; }
 .btn.btn-outline {
@@ -1386,7 +1386,10 @@ div.cs-select span {
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222; }
 .lista:focus {
-  outline: 5px solid #000;
+  outline: 3px solid #000;
 }
 
+a:focus , blockquote:focus{
+  outline: 3px solid #000;
+}
 /*# sourceMappingURL=style.css.map */
